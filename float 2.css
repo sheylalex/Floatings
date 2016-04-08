@@ -1,0 +1,28 @@
+.contenedor{
+	border: 2px solid #000000;
+	}
+.caja1{
+	background: #FFFF00;
+	
+	}
+.caja2{
+	background: #0099FF;
+
+	}
+.caja3{
+	background: #FF3366;
+}
+.tamaño{
+	width: 400px;
+	height: 150px;
+	float: left;
+
+}
+.clearfix:before,.clearfix:after{
+	content:"";
+	display: table; 
+}
+.clearfix:after{
+	clear: both; 
+}
+
